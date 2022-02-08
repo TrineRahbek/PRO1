@@ -1,0 +1,144 @@
+/* Opgave: alice'S restaurant. Dette er et CSS dokument.
+DEl PRO-1 Aflevering d. 08.02.2022
+Lavet af Trine Rahbek Markussen
+Hold D
+**/
+
+/*Farver*/
+:root {
+  /* farver */
+  --darkred: #400101;
+  --whitebeige: #FFF8DC;
+  --greengrey: #878367;
+  --sort: #000;
+
+  --whitesp: 5rem;
+
+  --font: serif;
+}
+
+
+body {
+  background-color: var(--whitebeige);
+  color: var(--darkred);
+}
+
+h1{
+  text-align: center;
+  font-family: var(--font);
+  color: var(--darkred);
+  background-color: inherit;
+}
+
+p{
+  text-align: center;
+  font-family: var(--font);
+}
+
+
+.logo {
+  width: 25%;
+  padding-left: 2%;
+}
+
+.forsidebillede {
+  width: 100%;
+}
+
+/* Selvstudie dag 2. - opgave 2.
+/* media regler - responsiv */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+/*  Menu - sidebar */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--greengrey);
+  color: inherit;
+  overflow-x: hidden;
+  padding-top: 10%;
+  transition: 0.5s;
+}
+
+/* Sidebar */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: var(--darkred);
+  display: block;
+  transition: 0.3s;
+  background-color: inherit;
+}
+
+/* Ændring i farven når musen er over navigationsmenuens overskrifter fra darkred til whitebeige. */
+.sidebar a:hover {
+  color: var(--whitebeige);
+  background-color: inherit;
+}
+
+/* Positionering og styling af sidebaren */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+
+}
+
+/* Styling af knappen til menuen (burger) */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: var(--darkred);
+  color: var(--whitebeige);
+  font-family: serif;
+  padding: 10px 15px;
+  border: none;
+}
+
+/* Ændring af menuens farve fra darkred til greengrey */
+.openbtn:hover {
+  background-color: var(--greengrey);
+  color: var(--darkred);
+}
+
+
+/* Styling af indholdet/menuoverskrifter og sidebar skubbes til højer på websitet. */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+
+/* Selvstudie dag 3. - opgave 6. - style.css */
+#btn1{
+  color: var(--whitebeige);
+  background-color: var(--greengrey);
+}
+
+/* Selvstudie dag 3. - opgave 6. - style.css */
+#btn2{
+  color: var(--whitebeige);
+  background-color: var(--greengrey);
+}
+
+
+
+footer {
+  text-align: center;
+  background-color: var(--greengrey);
+  min-height: 45px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  color: var(--darkred);
+
+}

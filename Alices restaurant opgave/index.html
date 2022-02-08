@@ -1,0 +1,116 @@
+<!-- Opgave: alice'S restaurant. Dette er et HTML dokument.
+index.html (forside)
+DEl PRO-1 Aflevering d. 08.02.2022
+Lavet af Trine Rahbek Markussen
+Hold D -->
+
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>alice'S restaurant</title>
+
+<!-- SEO -->
+  <meta name="alice'S restaurant forside" content="restaurant">
+	<meta name="description" content="alice'S">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="restaurant, mad, madlavning, menukort, take-way, restaurantbesøg">
+	<link rel="stylesheet" href="css/style.css">
+
+
+<!-- favicon = ikon i faneblad / browser -->
+</head>
+
+<body>
+<!-- Selvstudie dag 2. - opgave 1. -->
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">forside</a>
+    <a href="bookbord.html">book bord</a>
+    <a href="menu.html">menu</a>
+    <a href="personale.html">personale</a>
+    <a href="#">kontakt</a>
+  </div>
+
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">☰ menu</button>
+  </div>
+
+  <div class="wrap">
+
+  <header>
+    <h1></h1>
+    <h2 class="tagline"></h2>
+  </header>
+
+<main>
+    <section id="menu">
+      <h2></h2>
+
+      <a href="index.html"><img src="images/logo.png" alt="Logo" class="logo"></a>
+
+<!--Indholdet på forsiden starter -->
+
+    <picture>
+        <img src="images/forsidebillede.png" alt="pastaret med burrata og frisk basilikum" class="forsidebillede">
+    </picture>
+
+    <div id="citat"></div>
+      </section>
+
+      <aside id="praktiskInfo">
+
+        <div>
+          <h2>Åbningstider</h2>
+        </div>
+
+
+        <div>
+          <h2>Vores team</h2>
+          <ul id="team"></ul>
+        </div>
+
+        <div>
+          <h2>Hvor er vi?</h2>
+          <p> Vi ligger i hjertet af det hyggelige og charmerende latinerkvarteret i Aarhus C</p>
+        </div>
+
+  <!-- Selvstudie dag 4. - opgave 1 (se også youtubevideo.js, lyd.js, index.html og css.style) -->
+
+  <!-- Lyden bliver indsat her -->
+      <div id="lyd">
+            <audio id="myaudio">
+              <source src="media/death-of-queen-dagmar.mp3" type="audio/wav">
+            Denne browser understøtter ikke...
+        </audio>
+        <button>Click me and listen ... &#x1f50a; </button>
+      </div>
+
+
+        <div id="synlig">
+             <div id="ytplayer"></div>
+        </div>
+
+
+      </aside>
+
+
+</main>
+
+<!-- Footer -->
+  <footer>
+<!-- Selvstudie dag 1. -->
+      <div id="footerInformation"></div>
+
+  </footer>
+  </div>
+
+<!-- Linker til javaskrift dokumentet -->
+<script src="js/alicesrestaurant.js"></script>
+  <script src="js/youtubevideo.js"></script>
+  <script src="js/lyd.js"></script>
+
+</body>
+</html>

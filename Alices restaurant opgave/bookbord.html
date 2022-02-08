@@ -1,0 +1,108 @@
+<!-- Opgave: alice'S restaurant. Dette er et HTML dokument.
+index.html (forside)
+DEl PRO-1 Aflevering d. 08.02.2022
+Lavet af Trine Rahbek Markussen
+Hold D -->
+
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>alice'S restaurant</title>
+
+<!-- SEO -->
+  <meta name="alice'S restaurant forside" content="restaurant">
+	<meta name="description" content="alice'S">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="restaurant, mad, madlavning, menukort, take-way, restaurantbesøg">
+	<link rel="stylesheet" href="css/style.css">
+
+
+<!-- favicon = ikon i faneblad / browser -->
+</head>
+
+<body>
+<!-- Selvstudie dag 2. -->
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">forside</a>
+    <a href="bookbord.html">book bord</a>
+    <a href="menu.html">menu</a>
+    <a href="personale.html">personale</a>
+    <a href="#">kontakt</a>
+  </div>
+
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">&#9776; menu</button>
+  </div>
+
+  <div class="wrap">
+
+  <header>
+    <h1></h1>
+    <h2 class="tagline"></h2>
+  </header>
+
+<main>
+    <section id="menu">
+      <h2></h2>
+
+      <a href="index.html"><img src="images/logo.png" alt="Logo" class="logo"></a>
+
+<!--Indholdet på forsiden starter -->
+
+  <!-- Selvstudie 3  - opgave 1 (Flowchart)-->
+
+
+  <!-- Selvstudie 3  - opgave 2 -->
+        <h2>Book bord</h2>
+
+        <form id="bookning" action="action.php" method="post">
+          <fieldset id="navn">
+            <legend>Udfyld navn og email</legend>
+            Navn <input type="text" name="Name" value=""> <br>
+            E-mail <input type="text" name="Email" value=""> <br>
+
+            <div id="btn1" class="videre">Næste</div>
+
+          </fieldset>
+
+          <fieldset id="gaester">
+            <legend>Antal gæster</legend>
+
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Guest">
+            <label for="vehicle1"> 1 gæst </label><br>
+
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Guest">
+            <label for="vehicle2"> 2 gæster </label><br>
+
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Guest">
+            <label for="vehicle3"> 3 gæster </label><br>
+
+            <input type="checkbox" id="vehicle4" name="vehicle3" value="Guest">
+            <label for="vehicle3"> 4 gæster </label><br>
+
+            <input type="checkbox" id="vehicle5" name="vehicle3" value="Guest">
+            <label for="vehicle3"> 5 gæster </label><br>
+
+            <input type="checkbox" id="vehicle6" name="vehicle3" value="Guest">
+            <label for="vehicle3"> 6 gæster </label><br>
+
+            (Ring for bookning af bord til mere end 6 gæster) <input type="hidden" name="Email" value="">
+
+            <div id="btn2" class="videre">Næste</div>
+          </fieldset>
+
+          <fieldset id="tak">
+            <legend>Tak for din bestilling</legend>
+            <input type="submit" value="Bekræftelse">
+          </fieldset>
+        </form>
+
+<!-- Linker til javaskrift dokumentet -->
+<script src="js/alicesrestaurant.js"></script>
+
+</body>
+</html>

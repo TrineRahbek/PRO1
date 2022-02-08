@@ -1,0 +1,88 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "titel": "Carpaccio",
+      "beskrivelse": "Carpaccio med rucola og pinjekerner",
+      "pris": 90,
+      "ret": "Forret"
+    },
+    {
+      "id": 2,
+      "titel": "Tatar",
+      "beskrivelse": "Rørt oksetatar med jordskokkechips hertil brød med aioli",
+      "pris": 90,
+      "ret": "Forret"
+    },
+    {
+      "id": 3,
+      "titel": "Moules Frites",
+      "beskrivelse": "Danske hvidvinsdampet blåmuslinger med brød og urtesmør",
+      "pris": 90,
+      "ret": "Forret"
+    },
+    {
+      "id": 4,
+      "titel": "Bøf Bearnaise ",
+      "beskrivelse": "Rosa oksebøf med bearnaise og rustikke fritter",
+      "pris": 150,
+      "ret": "Hovedret"
+    },
+    {
+      "id": 5,
+      "titel": "Oksemørbrad",
+      "beskrivelse": "Rosa oksemørbrad med rødvinsovs og kartofler",
+      "pris": 150,
+      "ret": "Hovedret"
+    },
+    {
+      "id": 6,
+      "titel": "Tunbøf",
+      "beskrivelse": "Rosa tunbøf med hvidvinsauce og kartofler",
+      "pris": 150,
+      "ret": "Hovedret"
+    },
+    {
+      "id": 7,
+      "titel": "Chokoladekage med is",
+      "beskrivelse": "Mørk chokoladekage med passionis og karmelsovs",
+      "pris": 50,
+      "ret": "Dessert"
+    },
+    {
+      "id": 8,
+      "titel": "Créme Brulé",
+      "beskrivelse": "Fransk vanilje budding med en karmeliseret top",
+      "pris": 50,
+      "ret": "Dessert"
+    },
+    {
+      "id": 9,
+      "titel": "Tiramisu",
+      "beskrivelse": "Italienske ladyfingers dryppet i en kaffe-amaretto blanding samt mascarpone",
+      "pris": 50,
+      "ret": "Dessert"
+    },
+    {
+      "id": 10,
+      "titel": "Brød ",
+      "beskrivelse": "Blandet grov og lyst brød",
+      "pris": 20,
+      "ret": "Tilbehør"
+    },
+    {
+      "id": 11,
+      "titel": "Salat",
+      "beskrivelse": "Årstiden salater",
+      "pris": 30,
+      "ret": "Tilbehør"
+    },
+    {
+      "id": 12,
+      "titel": "Kartofler",
+      "beskrivelse": "Rusikke fitter, kartoffelbåde og råstegte kartofler",
+      "pris": 30,
+      "ret": "Tilbehør"
+    }
+  ]
+}
